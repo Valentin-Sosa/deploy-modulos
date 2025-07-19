@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO_URL="https://github.com/sisoputnfrba/tp-2025-1c-LaBestiaDeCalchin.git"
+REPO_URL="https://github.com/AlvaroGianola/tp-2025-1c-LaBestiaDeCalchin.git"
 USER="AlvaroGianola"
 
 # Variables globales para re-ejecución
