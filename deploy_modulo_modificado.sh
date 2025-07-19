@@ -381,7 +381,7 @@ main() {
   # Clonar repo si no está
   if [[ ! -d tp-2025-1c-LaBestiaDeCalchin ]]; then
     echo "Clonando repositorio..."
-    git clone "$REPO_URL"
+    git clone --depth=1 "$REPO_URL"
   else
     echo "Repositorio ya existe. Actualizando..."
     (cd tp-2025-1c-LaBestiaDeCalchin && git pull --ff-only || echo "[WARN] git pull falló, continuando...")
